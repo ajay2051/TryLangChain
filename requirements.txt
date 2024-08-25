@@ -109,6 +109,7 @@ PyYAML==6.0.2
 pyzmq==26.1.1
 qtconsole==5.5.2
 QtPy==2.4.1
+redis==5.0.8
 referencing==0.35.1
 regex==2024.7.24
 requests==2.32.3
