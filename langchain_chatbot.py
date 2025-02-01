@@ -50,5 +50,5 @@ parser = StrOutputParser()
 
 def get_chain():
     chain = {"context": retriever, "question": RunnablePassthrough()} | prompt | llm | parser
-    chain.invoke("Where is the best place to eat")
+    chain.invoke("Write something about nepal")
     return chain
